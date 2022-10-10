@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".SplashActivity">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:layout_marginBottom="1dp"
+        android:text="INFORMA"
+        android:typeface="serif"
+        android:textColor="@color/green"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/splash_screen_logo"
+        android:scaleType="centerCrop"
+        android:padding="70dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/power"
+        android:layout_width="220dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="80"
+        android:indeterminate="true"
+        android:progress="0"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
